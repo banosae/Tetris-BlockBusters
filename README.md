@@ -29,6 +29,7 @@ Block들을 잘 쌓아서 완성된 줄을 만들게 되면 줄이 사라집니�
 게임을 실행하기 위해서, 아래 file을 실행시켜주세요:  
 ```bash
 ./src/main/TetrisGame.java
+```
 
 ## **Overall Code Design**
 ![image](https://github.com/user-attachments/assets/03ff6327-d346-4892-8d04-e11f388f7ea4)
