@@ -1,11 +1,6 @@
 # 🎮 **Tetris-BlockBusters**
 
-> 고전 명작 테트리스를 Java로 재구현한 **Tetris-BlockBusters**!  
-> 혼자 또는 친구와 함께 플레이하며 추억을 떠올려 보세요!
-
----
-
-## 🧩 **Table of Contents**
+## 🌟 **Table of Contents**
 - [Introduction](#introduction)
 - [Basic Tetris Rules](#basic-tetris-rules)
 - [How to Play](#how-to-play)
@@ -18,22 +13,24 @@
 - [Conclusion](#conclusion)
 
 
-## 🌟 **Introduction**
+## 🧩 **Introduction**
 LOL(League of Legends)이라는 게임도 이제 어느덧 출시한지 15주년이 되어 갑니다. 어릴 적 스타크래프트 밀리와 유즈맵을 하던 시절을 떠올리면 실내 흡연이 가능하던 담배 찌든 피시방 냄새가 떠오르곤 합니다. **Tetris**도 5060 어르신들에겐 향수를 불러일으키는 게임입니다. 이러한 고전 근본 비디오 게임 Tetris를 java로 재구현해보았습니다.
-## Basic Tetris Rules
+## **Basic Tetris Rules**
 ![Block move](https://github.com/user-attachments/assets/250ebb6f-d26c-4fd0-b0d8-9ccfa56ba1a6)  ![Block rotation](https://github.com/user-attachments/assets/896d595f-5943-49a5-b906-dc6805f7c024)
 
-위와 같이 Tetris는 block들을 좌, 우, 아래로 움직이고 움직이는 동안 회전시킬 수 있습니다.
+위와 같이 Tetris는 block들을 **좌**, **우**, **아래**로 움직이고 움직이는 동안 회전시킬 수 있습니다.
 
 ![Remove line](https://github.com/user-attachments/assets/c7d4b905-1bc3-43ed-bed0-85d20941d04e) ![Game end](https://github.com/user-attachments/assets/c9970eaa-734c-45db-85b4-b65292b36ede)
 
 Block들을 잘 쌓아서 완성된 줄을 만들게 되면 줄이 사라집니다. 하지만, 상단까지 block들이 쌓이게 되면 게임이 종료됩니다.
 
 
-## How to play
-./src/main/TetrisGame.java 실행합니다.
+## ▶ **How to Play**
+게임을 실행하기 위해서, 아래 file을 실행시켜주세요:  
+```bash
+./src/main/TetrisGame.java
 
-## Overall Code Design
+## **Overall Code Design**
 ![image](https://github.com/user-attachments/assets/03ff6327-d346-4892-8d04-e11f388f7ea4)
 
 Tetris-BlockBusters는 위 그림과 같이 총 3개의 package로 구성되어 있습니다. Package들의 기능에 대해서 간략하게 설명하자면:
@@ -41,7 +38,7 @@ Tetris-BlockBusters는 위 그림과 같이 총 3개의 package로 구성되어 
  - model - Tetris 게임에 필수적인 보드와 블록, 사용자(점수, 등수), 그리고 배경 음악이나 글씨체에 관련된 class들이 포함되어 있습니다.
  - view - Start, end 또는 실제로 game을 진행할때 필요한 graphic에 관련된 class들이 포함되어 있습니다.
 
-## Single Play
+## 🎲 **Single Play**
 ![image](https://github.com/user-attachments/assets/bff2c55a-faa3-4b0f-b5de-14c4c45b06d3)
 
 Single mode로 게임을 진행하게 되면 UserID와 난이도를 설정하게 됩니다.
@@ -67,7 +64,7 @@ Single mode 게임 진행 예시 영상입니다.
  - New User - 새로운 User ID와 난이도를 새롭게 설정하여 게임을 실행
  - Exit - 프로그램 종료
 
-## Multi Play
+## 👫 **Multi Play**
 ![image](https://github.com/user-attachments/assets/5353a8e8-622b-4ddd-a4c7-bde5d74363d5)
 
 Multi node로 게임을 진행하게 되면 두 명의 UserID를 각각 입력해야합니다. 이떄, 게임의 난이도는 normal로 고정됩니다.
@@ -83,7 +80,7 @@ Multi mode 게임 진행 예시 영상입니다.
  - New User - 새로운 User ID로 multi mode 게임 진행
  - Exit - 프로그램 종료
 
-## Debugging Issues
+## 🔧 **Debugging Issues**
 
 Tetris-BlockBusters 개발 과정에서 발생한 debugging issues들에 대한 설명입니다:
  - Block spin: Block을 회전시키는 경우에 block들의 형태가 모두 다르기 때문에 각 형태의 중심을 지정하고 회전시키는것에 어려움이 있어 모든 block들의 90도씩 회전한 상태들을 모두 저장하고 사용하는 방식으로 해결했습니다.
@@ -91,13 +88,13 @@ Tetris-BlockBusters 개발 과정에서 발생한 debugging issues들에 대한 
 
 
 
-## Program Manual
+## 📄**Program Manual**
 Manual 파일을 따로 만들었습니다. 다음 파일을 참고해주세요! →
 [Manual.pdf](https://github.com/user-attachments/files/18059193/Manual.pdf)
-## Demo Video
+## 🎥 **Demo Video**
 Single mode에서 기본적인 기능들을 시연한 영상압니다. 다음 파일을 참고해주세요! →
 ![Tetris_demoVideo](https://github.com/user-attachments/assets/78292bba-84d2-4234-9d59-7aa42ed7e49a)
 
-## Conclusion
+## 💬 **Conclusion**
 Tetris라는 게임이 개발하는 과정에서 간단할 것 같았지만, 생각보다 어려운 부분들이 많이 존재했고, 개발을 진행하다보니 애정을 가지게되고 애정을 가지게되니 배경음악, 이미지, 폰트까지 customize하게 되었습니다. (초안은 조금 초라했습니다..ㅎㅎ) 더 큰 scale의 게임들을 개발하는것에도 욕심이 생기게 되었습니다.
 너무 바쁜 시대를 살아가고 있지만, 잠깐의 여유를 가져 Tetris-BlockBusters를 통해 잠깐이나마 옛 추억에 젖어들어보는건 어떠신가요? 게임을 진행해 주셔서 감사합니다!! (이왕이면 노래도 키고 플레이해보세요! :) )
