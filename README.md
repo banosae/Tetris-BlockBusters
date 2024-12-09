@@ -31,7 +31,7 @@ Block들을 잘 쌓아서 완성된 줄을 만들게 되면 줄이 사라집니�
 ./src/main/TetrisGame.java
 ```
 
-## 🛠 **Overall Code Design**
+## 🛡️ **Overall Code Design**
 ![image](https://github.com/user-attachments/assets/03ff6327-d346-4892-8d04-e11f388f7ea4)
 
 Tetris-BlockBusters는 위 그림과 같이 총 3개의 package로 구성되어 있습니다. Package들의 기능에 대해서 간략하게 설명하자면:
@@ -39,7 +39,7 @@ Tetris-BlockBusters는 위 그림과 같이 총 3개의 package로 구성되어 
  - **model**: Tetris 게임에 필수적인 보드와 블록, 사용자(점수, 등수), 그리고 배경 음악이나 글씨체에 관련된 class들이 포함되어 있습니다.
  - **view**: Start, end 또는 실제로 game을 진행할때 필요한 graphic에 관련된 class들이 포함되어 있습니다.
 
-## 🎲 **Single Play**
+## 🧍🎮 **Single Play**
 ![image](https://github.com/user-attachments/assets/bff2c55a-faa3-4b0f-b5de-14c4c45b06d3)
 
 Single mode로 게임을 진행하게 되면 UserID와 난이도를 설정하게 됩니다.
@@ -65,7 +65,7 @@ Single mode 게임 진행 예시 영상입니다.
  - **New User**: - 새로운 User ID와 난이도를 새롭게 설정하여 게임을 실행
  - **Exit**: - 프로그램 종료
 
-## 👫 **Multi Play**
+## 👫🎮 **Multi Play**
 ![image](https://github.com/user-attachments/assets/5353a8e8-622b-4ddd-a4c7-bde5d74363d5)
 
 Multi node로 게임을 진행하게 되면 두 명의 UserID를 각각 입력해야합니다. 이떄, 게임의 난이도는 normal로 고정됩니다.
