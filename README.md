@@ -1,6 +1,25 @@
-# Tetris-BlockBusters
-## Introduction
-LOL(League of Legends)이라는 게임도 이제 어느덧 출시한지 15주년이 되어 갑니다. 어릴 적 스타크래프트 밀리와 유즈맵을 하던 시절을 떠올리면 실내 흡연이 가능하던 담배 찌든 피시방 냄새가 떠오르곤 합니다. Tetris도 5060 어르신들에겐 향수를 불러일으키는 게임입니다. 이러한 고전 근본 비디오 게임 Tetris를 java로 재구현해보았습니다.
+# 🎮 **Tetris-BlockBusters**
+
+> 고전 명작 테트리스를 Java로 재구현한 **Tetris-BlockBusters**!  
+> 혼자 또는 친구와 함께 플레이하며 추억을 떠올려 보세요!
+
+---
+
+## 🧩 **Table of Contents**
+- [Introduction](#introduction)
+- [Basic Tetris Rules](#basic-tetris-rules)
+- [How to Play](#how-to-play)
+- [Overall Code Design](#overall-code-design)
+- [Single Play](#single-play)
+- [Multi Play](#multi-play)
+- [Debugging Issues](#debugging-issues)
+- [Program Manual](#program-manual)
+- [Demo Video](#demo-video)
+- [Conclusion](#conclusion)
+
+
+## 🌟 **Introduction**
+LOL(League of Legends)이라는 게임도 이제 어느덧 출시한지 15주년이 되어 갑니다. 어릴 적 스타크래프트 밀리와 유즈맵을 하던 시절을 떠올리면 실내 흡연이 가능하던 담배 찌든 피시방 냄새가 떠오르곤 합니다. **Tetris**도 5060 어르신들에겐 향수를 불러일으키는 게임입니다. 이러한 고전 근본 비디오 게임 Tetris를 java로 재구현해보았습니다.
 ## Basic Tetris Rules
 ![Block move](https://github.com/user-attachments/assets/250ebb6f-d26c-4fd0-b0d8-9ccfa56ba1a6)  ![Block rotation](https://github.com/user-attachments/assets/896d595f-5943-49a5-b906-dc6805f7c024)
 
