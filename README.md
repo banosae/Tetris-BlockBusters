@@ -24,3 +24,6 @@ Block들을 잘 쌓아서 완성된 줄을 만들게 되면 줄이 사라집니�
 Manual 파일을 따로 만들었습니다. 옆에 있는 파일을 참고해주세요! →
 [Manual.pdf](https://github.com/user-attachments/files/18059193/Manual.pdf)
 ## Demo Video
+Single play에 대한 demo video입니다.(Multi play도 블록 동작은 같아서 생략했습니다.) 옆에 있는 파일을 참고해주세요! →
+https://github.com/user-attachments/assets/78292bba-84d2-4234-9d59-7aa42ed7e49a
+
