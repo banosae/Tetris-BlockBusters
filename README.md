@@ -1,6 +1,6 @@
 # Tetris-BlockBusters
 ## Introduction
-LOL(League of Legends)이라는 게임도 이제 어느덧 출시한지 15주년이 되어 갑니다. 어릴 적 스타크래프트 밀리와 유즈맵을 하던 시절을 떠올리면 피시방 실내 흡연이 가능하던 담배 찌든 냄새가 떠오르곤 합니다. Tetris도 5060 어르신들에겐 향수를 불러일으키는 게임입니다. 이러한 고전 근본 비디오 게임 Tetris를 java로 재구현해보았습니다.
+LOL(League of Legends)이라는 게임도 이제 어느덧 출시한지 15주년이 되어 갑니다. 어릴 적 스타크래프트 밀리와 유즈맵을 하던 시절을 떠올리면 실내 흡연이 가능하던 담배 찌든 피시방 냄새가 떠오르곤 합니다. Tetris도 5060 어르신들에겐 향수를 불러일으키는 게임입니다. 이러한 고전 근본 비디오 게임 Tetris를 java로 재구현해보았습니다.
 ## Basic Tetris Rules
 ![Block move](https://github.com/user-attachments/assets/250ebb6f-d26c-4fd0-b0d8-9ccfa56ba1a6)  ![Block rotation](https://github.com/user-attachments/assets/896d595f-5943-49a5-b906-dc6805f7c024)
 
@@ -23,6 +23,25 @@ Tetris-BlockBusters는 위 그림과 같이 총 3개의 package로 구성되어 
  - view - Start, end 또는 실제로 game을 진행할때 필요한 graphic에 관련된 class들이 포함되어 있습니다.
 
 ## Single Play
+![image](https://github.com/user-attachments/assets/bff2c55a-faa3-4b0f-b5de-14c4c45b06d3)
+
+Single mode로 게임을 진행하게 되면 UserID와 난이도를 설정하게 됩니다.
+난이도는 전반적으로 block이 내려오는 속도에 관련되어 있고 이를 delay라고 하겠습니다. 난이도에 대한 자세한 설명은 아래와 같습니다:
+ - Easy - 격좌 추가 / 500ms 
+ - Normal - 500ms
+ - Hard - 350ms
+
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/093ed401-7ccf-428a-86a3-871379806698)
+
+Single mode 게임 진행 예시 영상입니다.
+![image](https://github.com/user-attachments/assets/7c063bb2-2709-4037-95ec-835f3bb503e5)
+
+게임이 종료되면 해당 난이도에서 가장 높은 점수를 받은 Top3 user의 ID와 점수가 출력됩니다. 그리고 선택할 수 있는 옵션이 3가지가 주어집니다.
+ - Retry - 같은 난이도와 같은 User ID로 게임을 재실행 
+ - New User - 새로운 User ID와 난이도를 새롭게 설정하여 게임을 실행
+ - Exit - 프로그램 종료
+
+
 
 ## Multi Play
 ## Debugging Issues
