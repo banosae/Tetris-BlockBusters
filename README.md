@@ -1,5 +1,6 @@
 # Tetris-Stacked-Horizons
 ## Introduction
+추억의 게임 Tetris를 java언어로 구현!
 ## How to play
 Run
 ## Overall Code Design
