@@ -76,7 +76,7 @@ Tetris-BlockBusters 개발 과정에서 발생한 debugging issues들에 대한 
 Manual 파일을 따로 만들었습니다. 다음 파일을 참고해주세요! →
 [Manual.pdf](https://github.com/user-attachments/files/18059193/Manual.pdf)
 ## Demo Video
-Single play에 대한 demo video입니다.(Multi play도 블록 동작은 같아서 생략했습니다.) 다음 파일을 참고해주세요! →
+Single mode에서 기본적인 기능들을 시연한 영상압니다. 다음 파일을 참고해주세요! →
 ![Tetris_demoVideo](https://github.com/user-attachments/assets/78292bba-84d2-4234-9d59-7aa42ed7e49a)
 
 ## Conclusion
