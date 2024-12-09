@@ -25,6 +25,8 @@ Tetris-BlockBusters는 총 3개의 package로 구성되어 있습니다. Package
 ## Single Play
 
 ## Multi Play
+## Debugging Issues
+
 ## Program Manual
 Manual 파일을 따로 만들었습니다. 다음 파일을 참고해주세요! →
 [Manual.pdf](https://github.com/user-attachments/files/18059193/Manual.pdf)
