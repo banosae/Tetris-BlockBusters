@@ -17,7 +17,7 @@ Block들을 잘 쌓아서 완성된 줄을 만들게 되면 줄이 사라집니�
 ## Overall Code Design
 ![image](https://github.com/user-attachments/assets/03ff6327-d346-4892-8d04-e11f388f7ea4)
 
-Tetris-BlockBusters는 총 3개의 package로 구성되어 있습니다. Package들의 기능에 대해서 간략하게 설명하자면:
+Tetris-BlockBusters는 위 그림과 같이 총 3개의 package로 구성되어 있습니다. Package들의 기능에 대해서 간략하게 설명하자면:
  - main - TetrisGame의 메인 함수를 포함하고 있는 package입니다. main 함수에서 코드를 실행해 게임을 시작할 수 있습니다.
  - model - Tetris 게임에 필수적인 보드와 블록, 사용자(점수, 등수), 그리고 배경 음악이나 글씨체에 관련된 class들이 포함되어 있습니다.
  - view - Start, end 또는 실제로 game을 진행할때 필요한 graphic에 관련된 class들이 포함되어 있습니다.
