@@ -4,6 +4,7 @@ LOL이라는 게임도 이제 어느덧 출시한지 15주년이 되어 갑니�
 
 ## Tetris Rule
 ![Block move](https://github.com/user-attachments/assets/250ebb6f-d26c-4fd0-b0d8-9ccfa56ba1a6)  ![Block rotation](https://github.com/user-attachments/assets/896d595f-5943-49a5-b906-dc6805f7c024)
+
 위 영상과 같이 Tetris는 block들을 좌, 우, 아래로 움직이고 움직이는 동안 회전시킬 수 있습니다.
 
 ![Remove line](https://github.com/user-attachments/assets/c7d4b905-1bc3-43ed-bed0-85d20941d04e) ![Game end](https://github.com/user-attachments/assets/c9970eaa-734c-45db-85b4-b65292b36ede)
