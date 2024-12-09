@@ -10,7 +10,7 @@
 ## Background Music and image
 ## Error Handling
 ## Program Manual
-Manual 파일을 따로 만들었습니다. 아래 파일을 참고해주세요!
+Manual 파일을 따로 만들었습니다. 옆에 있는 파일을 참고해주세요! →
 [Manual.pdf](https://github.com/user-attachments/files/18059193/Manual.pdf)
 ## Demo Video
 
