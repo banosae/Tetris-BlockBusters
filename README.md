@@ -1,21 +1,21 @@
 # 🎮 **Tetris-BlockBusters**
 
 ## 🌟 **Table of Contents**
-- [Introduction](#introduction)
-- [Basic Tetris Rules](#basic-tetris-rules)
-- [How to Play](#how-to-play)
-- [Overall Code Design](#overall-code-design)
-- [Single Play](#single-play)
-- [Multi Play](#multi-play)
-- [Debugging Issues](#debugging-issues)
-- [Program Manual](#program-manual)
-- [Demo Video](#demo-video)
-- [Conclusion](#conclusion)
+- [1. Introduction](#introduction)
+- [2. Basic Tetris Rules](#basic-tetris-rules)
+- [3. How to Play](#how-to-play)
+- [4. Overall Code Design](#overall-code-design)
+- [5. Single Play](#single-play)
+- [6. Multi Play](#multi-play)
+- [7. Debugging Issues](#debugging-issues)
+- [8. Program Manual](#program-manual)
+- [9. Demo Video](#demo-video)
+- [10. Conclusion](#conclusion)
 
 
 ## 🧩 **Introduction**
 LOL(League of Legends)이라는 게임도 이제 어느덧 출시한지 15주년이 되어 갑니다. 어릴 적 스타크래프트 밀리와 유즈맵을 하던 시절을 떠올리면 실내 흡연이 가능하던 담배 찌든 피시방 냄새가 떠오르곤 합니다. **Tetris**도 5060 어르신들에겐 향수를 불러일으키는 게임입니다. 이러한 고전 근본 비디오 게임 Tetris를 java로 재구현해보았습니다.
-## **Basic Tetris Rules**
+## 💡 **Basic Tetris Rules**
 ![Block move](https://github.com/user-attachments/assets/250ebb6f-d26c-4fd0-b0d8-9ccfa56ba1a6)  ![Block rotation](https://github.com/user-attachments/assets/896d595f-5943-49a5-b906-dc6805f7c024)
 
 위와 같이 Tetris는 block들을 **좌**, **우**, **아래**로 움직이고 움직이는 동안 회전시킬 수 있습니다.
